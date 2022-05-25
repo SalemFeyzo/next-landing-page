@@ -1,4 +1,4 @@
-/** @jsxImportSource @emotion/react */
+/** @jsxImportSource theme-ui */
 import { Container, Heading, Text, Box } from "theme-ui";
 import SectionHeader from "../components/section-header";
 import Rating from "../components/rating";

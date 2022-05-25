@@ -1,4 +1,4 @@
-/** @jsxImportSource @emotion/react */
+/** @jsxImportSource theme-ui */
 
 import { Box, Container, Image, Text } from "theme-ui";
 import { Link as Clink } from "../link";

@@ -1,4 +1,4 @@
-/** @jsxImportSource @emotion/react */
+/** @jsxImportSource theme-ui */
 import { Box, Heading, Text, Button, Link } from "theme-ui";
 
 export default function TextFeature({

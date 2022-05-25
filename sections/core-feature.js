@@ -1,4 +1,4 @@
-/** @jsxImportSource @emotion/react */
+/** @jsxImportSource theme-ui */
 import { Container, Box, Image } from "theme-ui";
 import TextFeature from "../components/text-feature";
 

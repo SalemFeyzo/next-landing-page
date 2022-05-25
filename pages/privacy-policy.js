@@ -1,4 +1,4 @@
-/** @jsxImportSource @emotion/react */
+/** @jsxImportSource theme-ui */
 import { Container, ThemeProvider, Box, Heading, Text } from "theme-ui";
 import theme from "../theme";
 import PrivacyLayout from "../components/privacy-policy/PrivacyLayout";

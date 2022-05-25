@@ -1,4 +1,4 @@
-/** @jsxImportSource @emotion/react */
+/** @jsxImportSource theme-ui */
 import { Box, Container, Flex } from "theme-ui";
 import { IoIosArrowRoundBack, IoIosArrowRoundForward } from "react-icons/io";
 

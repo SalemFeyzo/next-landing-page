@@ -1,4 +1,4 @@
-/** @jsxImportSource @emotion/react */
+/** @jsxImportSource theme-ui */
 import { Container, Grid } from "theme-ui";
 import SectionHeader from "../components/section-header";
 import FeatureCard from "../components/feature-card.js";

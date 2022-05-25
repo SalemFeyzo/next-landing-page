@@ -1,4 +1,4 @@
-/** @jsxImportSource @emotion/react */
+/** @jsxImportSource theme-ui */
 import { useState } from "react";
 import { Container, Box } from "theme-ui";
 import { keyframes } from "@emotion/react";

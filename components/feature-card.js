@@ -1,4 +1,4 @@
-/** @jsxImportSource @emotion/react */
+/** @jsxImportSource theme-ui */
 import { Image, Box, Heading, Text } from "theme-ui";
 
 export default function FeatureCard({

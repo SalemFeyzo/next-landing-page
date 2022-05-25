@@ -1,4 +1,4 @@
-/** @jsxImportSource @emotion/react */
+/** @jsxImportSource theme-ui */
 import { Image } from "theme-ui";
 import { Link } from "../components/link";
 

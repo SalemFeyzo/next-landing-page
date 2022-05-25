@@ -1,4 +1,4 @@
-/** @jsxImportSource @emotion/react */
+/** @jsxImportSource theme-ui */
 import { Container, Box, Heading, Text, Image, Button } from "theme-ui";
 
 export default function Banner() {
