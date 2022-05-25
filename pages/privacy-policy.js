@@ -1,18 +1,8 @@
 /** @jsxImportSource @emotion/react */
-import {
-  Container,
-  ThemeProvider,
-  Box,
-  Heading,
-  Text,
-  Button,
-  Image,
-} from "theme-ui";
-import theme from "theme";
+import { Container, ThemeProvider, Box, Heading, Text } from "theme-ui";
+import theme from "../theme";
 import PrivacyLayout from "../components/privacy-policy/PrivacyLayout";
 import SEO from "../components/seo";
-import ShapeLeft from "../assets/shape-left.png";
-import ShapeRight from "../assets/shape-right.png";
 
 const PrivacyPolicy = () => {
   return (
@@ -55,7 +45,7 @@ const styles = {
       height: "75%",
       width: "50%",
       zIndex: -1,
-      backgroundImage: `url(${ShapeLeft})`,
+      backgroundImage: `url("/assets/shape-left.png")`,
       backgroundRepeat: `no-repeat`,
       backgroundPosition: "bottom left",
       backgroundSize: "36%",
@@ -68,7 +58,7 @@ const styles = {
       height: "75%",
       width: "50%",
       zIndex: -1,
-      backgroundImage: `url(${ShapeRight})`,
+      backgroundImage: `url("/assets/shape-right.png")`,
       backgroundRepeat: `no-repeat`,
       backgroundPosition: "bottom right",
       backgroundSize: "32%",

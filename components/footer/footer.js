@@ -4,7 +4,6 @@ import { Box, Container, Image, Text } from "theme-ui";
 import { Link as Clink } from "../link";
 import Link from "next/link";
 import data from "./footer.data";
-import FooterLogo from "../../assets/logo.svg";
 
 export default function Footer() {
   return (
@@ -12,7 +11,7 @@ export default function Footer() {
       <Container>
         <Box sx={styles.footer.footerBottomArea}>
           <Clink path="/">
-            <Image src={FooterLogo} alt="Logo" />
+            <Image src="/assets/logo.svg" alt="Logo" />
           </Clink>
           <Box sx={styles.footer.menus}>
             <nav>

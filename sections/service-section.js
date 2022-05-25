@@ -5,26 +5,20 @@ import { keyframes } from "@emotion/react";
 import TextFeature from "../components/text-feature";
 import ModalVideo from "react-modal-video";
 
-import ServiceThumb from "../assets/service-thumb.png";
-import shapePattern from "../assets/shape-pattern1.png";
-
-import Easya from "../assets/services/easya.svg";
-import Savem from "../assets/services/savem.svg";
-
 const data = {
   subTitle: "Our services",
   title: "Business Goals Achieved with Cloud",
   features: [
     {
       id: 1,
-      imgSrc: Easya,
+      imgSrc: "/assets/services/easya.svg",
       altText: "Easy Access",
       title: "Easy Access",
       text: "Access your app from every spot that has internet connection.",
     },
     {
       id: 2,
-      imgSrc: Savem,
+      imgSrc: "/assets/services/savem.svg",
       altText: "Reduced Costs",
       title: "Reduced Costs",
       text: "Save money for your IT maintainance and automate software updates.",
@@ -44,10 +38,10 @@ export default function ServiceSection() {
     <section sx={{ variant: "section.services" }}>
       <Container sx={styles.containerBox}>
         <Box sx={styles.thumbnail}>
-          <Image src={ServiceThumb} alt="Thumbnail" />
+          <Image src="/assets/service-thumb.png" alt="Thumbnail" />
 
           <Box sx={styles.shapeBox}>
-            <Image src={shapePattern} alt="shape" />
+            <Image src="/assets/shape-pattern1.png" alt="shape" />
           </Box>
         </Box>
         <Box sx={styles.contentBox}>

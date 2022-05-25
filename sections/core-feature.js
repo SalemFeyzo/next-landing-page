@@ -2,9 +2,6 @@
 import { Container, Box, Image } from "theme-ui";
 import TextFeature from "../components/text-feature";
 
-import FeatureThumb from "../assets/core-feature.png";
-import shapePattern from "../assets/shape-pattern2.png";
-
 const data = {
   subTitle: "Core cloud features",
   title: "Smart wins that you may love anytime & anywhere",
@@ -28,9 +25,9 @@ export default function CoreFeature() {
           />
         </Box>
         <Box sx={styles.thumbnail}>
-          <Image src={FeatureThumb} alt="Thumbnail" />
+          <Image src="/assets/core-feature.png" alt="Thumbnail" />
           <Box sx={styles.shapeBox}>
-            <Image src={shapePattern} alt="Shape" />
+            <Image src="/assets/shape-pattern2.png" alt="Shape" />
           </Box>
         </Box>
       </Container>

@@ -3,7 +3,7 @@ import "react-multi-carousel/lib/styles.css";
 import "react-modal-video/css/modal-video.min.css";
 import "rc-drawer/assets/index.css";
 import "typeface-dm-sans";
-import "../assets/privacy-policy/privacy-policy.css";
+import "../styles/privacy-policy.css";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Script from "next/script";

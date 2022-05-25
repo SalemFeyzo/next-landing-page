@@ -2,10 +2,6 @@
 import { Container, Grid, Box, Heading, Text } from "theme-ui";
 import SectionHeader from "../components/section-header";
 
-import PatternBG from "../assets/patternBG.png";
-import ArrowOdd from "../assets/arrowOdd.svg";
-import ArrowEven from "../assets/arrowEven.svg";
-
 const data = [
   {
     id: 1,
@@ -57,7 +53,7 @@ export default function WorkFlow() {
 const styles = {
   workflow: {
     backgroundColor: "primary",
-    backgroundImage: `url(${PatternBG})`,
+    backgroundImage: `url("/assets/patternBG.png")`,
     backgroundRepeat: `no-repeat`,
     backgroundPosition: "center center",
     backgroundSize: "cover",
@@ -107,10 +103,10 @@ const styles = {
       },
     },
     "&:nth-of-type(2n-1)::before": {
-      backgroundImage: `url(${ArrowOdd})`,
+      backgroundImage: `url("/assets/arrowOdd.svg")`,
     },
     "&:nth-of-type(2n)::before": {
-      backgroundImage: `url(${ArrowEven})`,
+      backgroundImage: `url("/assets/arrowEven.svg")`,
       top: 17,
     },
     "&:last-child::before": {

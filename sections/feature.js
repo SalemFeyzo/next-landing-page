@@ -2,36 +2,32 @@
 import { Container, Grid } from "theme-ui";
 import SectionHeader from "../components/section-header";
 import FeatureCard from "../components/feature-card.js";
-import Exp from "../assets/feature/exp.svg";
-import Know from "../assets/feature/know.svg";
-import Reso from "../assets/feature/reso.svg";
-import Time from "../assets/feature/time.svg";
 
 const data = [
   {
     id: 1,
-    imgSrc: Exp,
+    imgSrc: "/assets/feature/exp.svg",
     altText: "Expertise",
     title: "Expertise",
     text: "Experience the caliber of our cloud consulting services. Get strategic guidance options fast.",
   },
   {
     id: 2,
-    imgSrc: Time,
+    imgSrc: "/assets/feature/time.svg",
     altText: "Time Savings",
     title: "Time Savings",
     text: "We deliver simple and well thought ideas on business efficiency improvement.",
   },
   {
     id: 3,
-    imgSrc: Reso,
+    imgSrc: "/assets/feature/reso.svg",
     altText: "Resources",
     title: "Resources",
     text: "Discover the advantage of on-demand resources hosted with a cloud service provider.",
   },
   {
     id: 4,
-    imgSrc: Know,
+    imgSrc: "/assets/feature/know.svg",
     altText: "Knowledge",
     title: "Knowledge",
     text: "We happily share our knowledge through our work towards a solution and during the training. ",

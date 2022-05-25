@@ -2,36 +2,32 @@
 import { Container, Grid } from "theme-ui";
 import SectionHeader from "../components/section-header";
 import FeatureCardColumn from "../components/feature-card-column.js";
-import Cloft from "../assets/key-feature/cloft.svg";
-import Crm from "../assets/key-feature/crm.svg";
-import It from "../assets/key-feature/it.svg";
-import Web from "../assets/key-feature/web.svg";
 
 const data = [
   {
     id: 1,
-    imgSrc: Cloft,
+    imgSrc: "/assets/key-feature/cloft.svg",
     altText: "Apps",
     title: "Apps",
     text: "Get support while choosing and implementing an online app.",
   },
   {
     id: 2,
-    imgSrc: Crm,
+    imgSrc: "/assets/key-feature/crm.svg",
     altText: "Data",
     title: "Data",
     text: "Connect the dots with cloud information management systems like CRM.",
   },
   {
     id: 3,
-    imgSrc: Web,
+    imgSrc: "/assets/key-feature/web.svg",
     altText: "Web Development",
     title: "Web Development",
     text: "Reserve some cloud space for your company with a modern website.",
   },
   {
     id: 4,
-    imgSrc: It,
+    imgSrc: "/assets/key-feature/it.svg",
     altText: "Tech Guide",
     title: "Tech Guide",
     text: "Improve hardware by following steps from tech guide or demand a training.",

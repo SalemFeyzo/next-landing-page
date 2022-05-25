@@ -6,7 +6,7 @@ import Carousel from "react-multi-carousel";
 import PriceCard from "../components/second-price-card";
 import ButtonGroup from "../components/button-group";
 import SectionHeader from "../components/section-header";
-import { IoIosCheckmarkCircle, IoIosCloseCircle } from "react-icons/io";
+import { IoIosCheckmarkCircle } from "react-icons/io";
 
 const packages = {
   monthly: [

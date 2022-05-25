@@ -3,17 +3,10 @@ import SectionHeader from "../components/section-header";
 import TeamCard from "../components/team-card";
 import { FaTwitter, FaLinkedin } from "react-icons/fa";
 
-import Member1 from "../assets/team/member-1.png";
-// import Member2 from "../assets/team/member-2.png";
-// import Member3 from "../assets/team/member-3.png";
-// import Member4 from "../assets/team/member-4.png";
-// import Member5 from "../assets/team/member-5.png";
-// import Member6 from "../assets/team/member-6.png";
-
 const data = [
   {
     id: 1,
-    imgSrc: Member1,
+    imgSrc: "/assets/team/member-1.png",
     altText: "Justin Endrijaitis",
     title: "Justin Endrijaitis",
     designation: "Cloud Consultant",
