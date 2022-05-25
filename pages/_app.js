@@ -1,8 +1,14 @@
 import "../styles/globals.css";
+import "react-multi-carousel/lib/styles.css";
+import "react-modal-video/css/modal-video.min.css";
+import "rc-drawer/assets/index.css";
+import "typeface-dm-sans";
+import "../assets/privacy-policy/privacy-policy.css";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 import Script from "next/script";
 import * as gtag from "../lib/gtag";
+import Popup from "../components/Popup";
 
 function MyApp({ Component, pageProps }) {
   const router = useRouter();
@@ -41,6 +47,7 @@ function MyApp({ Component, pageProps }) {
       />
       {/* Next.js components */}
       <Component {...pageProps} />
+      <Popup />
     </>
   );
 }
