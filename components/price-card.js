@@ -28,13 +28,10 @@ export default function PriceCard({
       setLoading(true);
       emailjs
         .sendForm(
-          // process.env.EMAILJS_SERVICE_ID,
-          "service_bfjsc0e",
-          // process.env.EMAILJS_TEMPLATE_ID,
-          "template_vxmmrnk",
+          process.env.EMAILJS_SERVICE_ID,
+          process.env.EMAILJS_TEMPLATE_ID,
           form.current,
-          // process.env.EMAILJS_PUBLIC_KEY
-          "K5PAZTNd8f72D42nM"
+          process.env.EMAILJS_PUBLIC_KEY
         )
         .then(
           (result) => {
@@ -55,7 +52,7 @@ export default function PriceCard({
       setMessage("Email is required");
     }
   };
-
+  console.log(process.env.EMAILJS_SERVICE_ID);
   return (
     <Card
       className={header ? "package__card active" : "package__card"}
